@@ -24,5 +24,6 @@
 
 
 int _printf(const char *format, ...);
+void my_printf(const char *format, ...);
 
 #endif  
