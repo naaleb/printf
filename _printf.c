@@ -4,7 +4,7 @@
  * _printf - Function that prints output according to a format
  * @format: a character string composing zero or more directives
  * Return: number of chars printed (excluding null byte)
- *By Hermas and Almond
+ * By Hermas and Almond
  */
 int _printf(const char *format, ...)
 {
@@ -60,3 +60,4 @@ int _printf(const char *format, ...)
 
 	return (counter);
 }
+
