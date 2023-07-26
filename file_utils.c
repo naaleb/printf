@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
+ * is_printable - Check if a character is printable
+ * @c: Character to check.
  *
  * Return: 1 if c is printable, 0 otherwise
+ *
+ * By Hermas and Almond
  */
 int is_printable(char c)
 {
@@ -20,11 +22,12 @@ int is_printable(char c)
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
+ * 
+ * By Hermas and Almond
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {
 	char map_to[] = "0123456789ABCDEF";
-	/* The hexa format code is always 2 digits long */
 	if (ascii_code < 0)
 		ascii_code *= -1;
 
@@ -38,10 +41,11 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 }
 
 /**
- * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
+ * is_digit - Verify if character is a digit
+ * @c: Character to be check
  *
  * Return: 1 if c is a digit, 0 otherwise
+ *  By Hermas and Almond
  */
 int is_digit(char c)
 {
@@ -69,7 +73,7 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
+ * convert_size_unsgnd - Cast a number to the specified size
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
  *
