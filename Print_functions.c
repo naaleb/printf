@@ -1,9 +1,9 @@
 #include "main.h"
 
-/************************* PRINT CHAR *************************/
+/* PRINT CHAR */
 
 /**
- * print_char - Prints a char
+ * print_char - A function to print a character
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -11,6 +11,7 @@
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
+ * By Hermas and Almond
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -19,9 +20,9 @@ int print_char(va_list types, char buffer[],
 
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
-/************************* PRINT A STRING *************************/
+/* PRINT A STRING */
 /**
- * print_string - Prints a string
+ * print_string - A function to Print a string
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -74,16 +75,18 @@ int print_string(va_list types, char buffer[],
 
 	return (write(1, str, length));
 }
-/************************* PRINT PERCENT SIGN *************************/
+/* PRINT PERCENT SIGN */
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
+ * @types: Agurments list
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width.
+ * @width: Get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of characters printed
+ *
+ * By Hermas and Almond
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -141,16 +144,18 @@ int print_int(va_list types, char buffer[],
 	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 
-/********************** PRINT BINARY **********************/
+/* PRINT BINARY */
 /**
- * print_binary - Prints an unsigned number
- * @types: Lista of arguments
+ * print_binary - A function to print an unsigned number
+ * @types: Argument list
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Numbers of char printed.
+ *
+ * By Hermas And Almond
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
