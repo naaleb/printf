@@ -11,6 +11,7 @@
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
+ *
  * By Hermas and Almond
  */
 int print_char(va_list types, char buffer[],
@@ -100,16 +101,18 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/********************** PRINT INT **********************/
+/* PRINT INTEGER */
 /**
- * print_int - Print int
- * @types: Lista of arguments
+ * print_int - Print int function
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
+ *
+ * By Hermas and Almond
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
