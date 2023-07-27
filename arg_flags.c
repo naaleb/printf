@@ -6,7 +6,7 @@
  * @i: take a parameter.
  * Return: Return flags
  *
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int get_flags(const char *format, int *i)
 {

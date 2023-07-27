@@ -3,10 +3,9 @@
 /**
  * is_printable - Check if a character is printable
  * @c: Character to check.
- *
  * Return: 1 if c is printable, 0 otherwise
  *
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int is_printable(char c)
 {
@@ -23,7 +22,7 @@ int is_printable(char c)
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
  * 
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
 {

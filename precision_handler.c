@@ -7,7 +7,7 @@
  * @list: list of arguments.
  *
  * Return: Precision.
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int get_precision(const char *format, int *i, va_list list)
 {

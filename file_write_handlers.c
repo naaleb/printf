@@ -11,7 +11,7 @@
  * @size: Size specifier
  *
  * Return: Number of chars printed.
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)

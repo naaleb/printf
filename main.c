@@ -4,7 +4,8 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always (0)
+ * By Almond and Hermas
  */
 int main(void)
 {

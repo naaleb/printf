@@ -11,7 +11,7 @@
  * @size: Size specifier
  * Return: Number of chars printed.
  *
- * By Hermas and Almond
+ * By Almond and Hermas
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
